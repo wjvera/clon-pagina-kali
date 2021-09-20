@@ -1,0 +1,19 @@
+.nave{
+    /*background: skyblue;*/
+}
+
+#logo{
+    border: 1px solid green;
+}
+
+#navegacion{
+    border: 1px solid red;
+}
+
+#imagenheader{
+    border: 1px solid violet;
+}
+
+#descripcionheader{
+    border: 1px solid red;
+}
