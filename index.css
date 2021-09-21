@@ -1,6 +1,7 @@
 header{
     border: 1px solid red;
     background-image: url('logo/fondoheader.jpg');
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
     padding-bottom: 20px;
 }
 
@@ -40,7 +41,6 @@ header{
 
 #des{
     border: 1px solid green;
-    margin-left: 390px;
 }
 
 #des2{
@@ -53,4 +53,13 @@ header{
 
 #tar12{
     border: 1px solid red;
+}
+
+#tar12 a{
+    color: black;
+    text-decoration: none;
+}
+
+#tar2{
+    border: 1px solid violet;
 }
