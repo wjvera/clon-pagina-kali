@@ -1,5 +1,7 @@
-.nave{
-    /*background: skyblue;*/
+header{
+    border: 1px solid red;
+    background-image: url('logo/fondoheader.jpg');
+    padding-bottom: 20px;
 }
 
 #logo{
@@ -10,10 +12,45 @@
     border: 1px solid red;
 }
 
+#navegacion li a{
+    color: white;
+}
+
+#descripcionheader h1{
+    color: white;
+}
+
+#descripcionheader h5{
+    color: white;
+}
+
 #imagenheader{
     border: 1px solid violet;
 }
 
 #descripcionheader{
+    border: 1px solid red;
+}
+
+/* despues del header */
+
+#central{
+    margin-top: 100px;
+}
+
+#des{
+    border: 1px solid green;
+    margin-left: 390px;
+}
+
+#des2{
+    border: 1px solid green;
+}
+
+#tar1{
+    border: 1px solid green;
+}
+
+#tar12{
     border: 1px solid red;
 }
