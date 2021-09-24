@@ -1,65 +1,81 @@
-header{
+header {
     border: 1px solid red;
     background-image: url('logo/fondoheader.jpg');
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
     padding-bottom: 20px;
 }
 
-#logo{
+#logo {
     border: 1px solid green;
 }
 
-#navegacion{
+#navegacion {
     border: 1px solid red;
 }
 
-#navegacion li a{
+#navegacion li a {
     color: white;
 }
 
-#descripcionheader h1{
+#descripcionheader h1 {
     color: white;
 }
 
-#descripcionheader h5{
+#descripcionheader h5 {
     color: white;
 }
 
-#imagenheader{
+#imagenheader {
     border: 1px solid violet;
 }
 
-#descripcionheader{
+#descripcionheader {
     border: 1px solid red;
 }
+
 
 /* despues del header */
 
-#central{
+#central {
     margin-top: 100px;
 }
 
-#des{
+#des {
     border: 1px solid green;
 }
 
-#des2{
+#des2 {
     border: 1px solid green;
 }
 
-#tar1{
+#tar1 {
     border: 1px solid green;
 }
 
-#tar12{
+#tar12 {
     border: 1px solid red;
 }
 
-#tar12 a{
+#tar12 a {
     color: black;
     text-decoration: none;
 }
 
-#tar2{
+#tar2 {
     border: 1px solid violet;
+}
+
+
+/*imagen laptop*/
+
+#prin {
+    position: relative;
+}
+
+.fondo img {
+    width: 1060px;
+    height: 600px;
+    margin-top: -880px;
+    margin-left: 145px;
+    z-index: 1;
 }

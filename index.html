@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -9,191 +10,209 @@
     <link rel="shortcut icon" href="favi/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
 
+    <link rel="import" href="body.html">
+
 </head>
+
 <body>
-    <!-- navbar -->
+    <!-- header -->
     <header>
 
-      <div class="container">
+        <!-- navbar -->
+        <div class="container">
 
-        <nav class="nave" >
-   
-           <div class="row">
-   
-             <div class="col-sm-1" id="logo">
-               <a href="#">
-                 <img src="logo/logopagina2.png" width="80" height="40" class="mt-2 mb-3">
-               </a>
-             </div>
-   
-             <ul class="col nav justify-content-end" id="navegacion">
-               
-               <li class="nav-item  mt-3">
-                 <a class="nav-link active" href="#">OBTENER KALI</a>
-               </li>
-   
-               <li class="nav-item mt-3">
-                 <a class="nav-link" href="#">BLOG</a>
-               </li>
-   
-               <li class="nav-item dropdown mt-3">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <nav class="nave">
+
+                <div class="row">
+
+                    <div class="col-sm-1" id="logo">
+                        <a href="#">
+                            <img src="logo/logopagina2.png" width="80" height="40" class="mt-2 mb-3">
+                        </a>
+                    </div>
+
+                    <ul class="col nav justify-content-end" id="navegacion">
+
+                        <li class="nav-item  mt-3">
+                            <a class="nav-link active" href="#">OBTENER KALI</a>
+                        </li>
+
+                        <li class="nav-item mt-3">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+
+                        <li class="nav-item dropdown mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    DOCUMENTACION
                  </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">SOPORTE DE LA COMUNIDAD</a></li>
-                   <li><a class="dropdown-item" href="#">HERRAMIENTAS PARA KALI</a></li>
-                   <li><a class="dropdown-item" href="#">DOCUMENTACION DE KALI</a></li>
-                 </ul>
-               </li>
-   
-               <li class="nav-item dropdown mt-3">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">SOPORTE DE LA COMUNIDAD</a></li>
+                                <li><a class="dropdown-item" href="#">HERRAMIENTAS PARA KALI</a></li>
+                                <li><a class="dropdown-item" href="#">DOCUMENTACION DE KALI</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    COMUNIDAD
                  </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">GIT HUB</a></li>
-                   <li><a class="dropdown-item" href="#">GIT LAB</a></li>
-                   <li><a class="dropdown-item" href="#">LINKEDIN</a></li>
-                 </ul>
-               </li>
-   
-               <li class="nav-item dropdown mt-3">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">GIT HUB</a></li>
+                                <li><a class="dropdown-item" href="#">GIT LAB</a></li>
+                                <li><a class="dropdown-item" href="#">LINKEDIN</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    CURSOS
                  </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">KALI LINUX</a></li>
-                   <li><a class="dropdown-item" href="#">DEBIAN</a></li>
-                   <li><a class="dropdown-item" href="#">UBUNTU</a></li>
-                 </ul>
-               </li>
-   
-               <li class="nav-item dropdown mt-3">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">KALI LINUX</a></li>
+                                <li><a class="dropdown-item" href="#">DEBIAN</a></li>
+                                <li><a class="dropdown-item" href="#">UBUNTU</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    DESARROLLADOR
                  </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">CODERVERA</a></li>
-                   <li><a class="dropdown-item" href="#">CODERPARRA</a></li>
-                 </ul>
-               </li>
-   
-               <li class="nav-item dropdown mt-3">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">CODERVERA</a></li>
+                                <li><a class="dropdown-item" href="#">CODERPARRA</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    SOBRE NOSOTROS
                  </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">NUESTRA COMPAÑIA</a></li>
-                   <li><a class="dropdown-item" href="#">SOBRE EL CEO</a></li>
-                   <li><a class="dropdown-item" href="#">SOBRE EL CTO</a></li>
-                 </ul>
-               </li>
-   
-             </ul>
-             
-           </div>
-        </nav>
-   
-        <div class="row mt-5">
-   
-           <div class="col-lg-6" id="imagenheader">
-             <a href="#">
-               <img src="logo/imagenheader2.png" width="720" height="480">
-             </a>
-           </div>
-   
-           <div class="col-lg-6" id="descripcionheader">
-             <h1 class="mt-5">
-                 The Most Advanced
-                 Penetration Testing Distribution
-             </h1>
-   
-             <h5 class="mt-5">
-                 Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.
-             </h5>
-   
-               <button type="button" class="btn btn-outline-warning btn-lg mt-5">DESCARGAR</button>
-               <button type="button" class="btn btn-primary btn-lg mt-5">DOCUMENTACION</button>
-             </div>
-   
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">NUESTRA COMPAÑIA</a></li>
+                                <li><a class="dropdown-item" href="#">SOBRE EL CEO</a></li>
+                                <li><a class="dropdown-item" href="#">SOBRE EL CTO</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-6" id="imagenheader">
+                    <a href="#">
+                        <img src="logo/imagenheader2.png" width="720" height="480">
+                    </a>
+                </div>
+
+                <div class="col-lg-6" id="descripcionheader">
+                    <h1 class="mt-5">
+                        The Most Advanced Penetration Testing Distribution
+                    </h1>
+
+                    <h5 class="mt-5">
+                        Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.
+                    </h5>
+
+                    <button type="button" class="btn btn-outline-warning btn-lg mt-5">DESCARGAR</button>
+                    <button type="button" class="btn btn-primary btn-lg mt-5">DOCUMENTACION</button>
+                </div>
+
+            </div>
+
         </div>
-   
-       </div>
 
     </header>
 
+    <!-- body -->
     <div class="container">
 
-      <div class="row text-center" id="central">
+        <div class="row text-center" id="central">
 
-        <div class="col-12" id="des2">
-          <h1>
-            <strong>The Industry Standard</strong>
-          </h1>
+            <div class="col-12" id="des2">
+                <h1>
+                    <strong>The Industry Standard</strong>
+                </h1>
+            </div>
+
+            <h4 id="des" class="justify-content-center mt-5">
+                Kali Linux is not about its tools, nor the operating system. Kali Linux is a <strong>platform</strong>.
+            </h4>
+
         </div>
 
-        <h4 id="des" class="justify-content-center mt-5">
-          Kali Linux is not about its tools, nor the operating system. Kali Linux is a <strong>platform</strong>.
-        </h4>
+        <div class="row mt-5 justify-content-between" id="tar1">
 
-      </div>
-
-      <div class="row mt-5 justify-content-between" id="tar1">
-
-          <div class="col-md-3" id="tar12">
-              <h3>
-                <a href="#">Make Your Job Easier</a>
-              </h3>
-              <p class="text-start mt-5">
-                You can take any Linux and install pentesting tools on it, but you have to set the tools up manually and configure them. Kali is optimized to reduce the amount of work, so a professional can just sit down and go.
-              </p>
-          </div>
+            <div class="col-md-3" id="tar12">
+                <h3>
+                    <a href="#">Make Your Job Easier</a>
+                </h3>
+                <p class="text-start mt-5">
+                    You can take any Linux and install pentesting tools on it, but you have to set the tools up manually and configure them. Kali is optimized to reduce the amount of work, so a professional can just sit down and go.
+                </p>
+            </div>
 
 
 
-          <div class="col-md-3" id="tar12">
-            <h3>
-              <a href="#">Kali Everywhere</a>
-            </h3>
-            <p class="text-start mt-5">
-              A version of Kali is always close to you, no matter where you need it. Mobile devices, Docker, ARM, Amazon Web Services, Windows Subsystem for Linux, Virtual Machine, bare metal, and others are all available.
-            </p>
-          </div>
+            <div class="col-md-3" id="tar12">
+                <h3>
+                    <a href="#">Kali Everywhere</a>
+                </h3>
+                <p class="text-start mt-5">
+                    A version of Kali is always close to you, no matter where you need it. Mobile devices, Docker, ARM, Amazon Web Services, Windows Subsystem for Linux, Virtual Machine, bare metal, and others are all available.
+                </p>
+            </div>
 
-        
 
-          <div class="col-md-3" id="tar12">
-            <h3>
-              <a href="#">Customization</a>
-            </h3>
-            <p class="text-start mt-5">
-              With the use of metapackages, optimized for the specific tasks of a security professional, and a highly accessible and well documented ISO customization process, it's always easy to generate an optimized version of Kali for your specific needs.
-            </p>
-          </div>
+
+            <div class="col-md-3" id="tar12">
+                <h3>
+                    <a href="#">Customization</a>
+                </h3>
+                <p class="text-start mt-5">
+                    With the use of metapackages, optimized for the specific tasks of a security professional, and a highly accessible and well documented ISO customization process, it's always easy to generate an optimized version of Kali for your specific needs.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-5 justify-content-evenly" id="tar2">
+
+            <div class="col-md-3" id="tar12">
+                <h3>
+                    <a href="#">Documentation</a>
+                </h3>
+                <p class="text-start mt-5">
+                    Whether you are a seasoned veteran or a novice, our documentation will have all the information you will need to know about Kali Linux. Multiple tips and “recipes” are available, to help ease doubts or address any issues. All documentation is open, so
+                    you can easily contribute.
+                </p>
+            </div>
+
+            <div class="col-md-3" id="tar12">
+                <h3>
+                    <a href="#">Community</a>
+                </h3>
+                <p class="text-start mt-5">
+                    Kali Linux, with its BackTrack lineage, has a vibrant and active community. There are active Kali forums, IRC Channel, Kali Tools listings, an open bug tracker system, and even community provided tool suggestions </p>
+            </div>
+
+        </div>
+
+
+
     </div>
 
-    <div class="row mt-5 justify-content-evenly" id="tar2">
-
-        <div class="col-md-3" id="tar12">
-          <h3>
-            <a href="#">Documentation</a>
-          </h3>
-          <p class="text-start mt-5">
-            Whether you are a seasoned veteran or a novice, our documentation will have all the information you will need to know about Kali Linux. Multiple tips and “recipes” are available, to help ease doubts or address any issues. All documentation is open, so you can easily contribute.        
-          </p>
+    <div class="col" id="prin">
+        <div class="marco">
+            <img src="logo/notebook.svg" alt="">
         </div>
 
-        <div class="col-md-3" id="tar12">
-          <h3>
-            <a href="#">Community</a>
-          </h3>
-          <p class="text-start mt-5">
-            Kali Linux, with its BackTrack lineage, has a vibrant and active community. There are active Kali forums, IRC Channel, Kali Tools listings, an open bug tracker system, and even community provided tool suggestions          </p>
+        <div class="fondo">
+            <img src="logo/fondonotebook.jpg" alt="">
         </div>
-
     </div>
-
 </body>
 
 </html>
