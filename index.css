@@ -65,17 +65,21 @@ header {
     border: 1px solid violet;
 }
 
-
-/*imagen laptop*/
-
-#prin {
-    position: relative;
+#section1 {
+    padding-bottom: 250px;
+    background: #F8F8FF;
+    border: 1px solid red;
 }
 
-.fondo img {
-    width: 1060px;
-    height: 600px;
-    margin-top: -880px;
-    margin-left: 145px;
-    z-index: 1;
+#cont1 {
+    margin-top: 150px;
+}
+
+#section2 {
+    border: 1px solid green;
+}
+
+#cap,
+#cap2 {
+    border: 1px solid violet;
 }
