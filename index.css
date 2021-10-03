@@ -100,9 +100,15 @@ header {
   scroll-snap-type: x mandatory;
 }
 
-.container img {
+.slider img {
   object-fit: cover;
   scroll-snap-align: center;
   margin-right: 48px;
   border: 1px solid red;
+
+  transition: all 300ms;
+}
+
+.slider img:hover {
+  transform: scale(1.15);
 }
