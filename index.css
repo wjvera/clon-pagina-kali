@@ -1,17 +1,17 @@
 header {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   background-image: url("logo/fondoheader.jpg");
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
   padding-bottom: 20px;
 }
-
+/*
 #logo {
   border: 1px solid green;
 }
 
 #navegacion {
   border: 1px solid red;
-}
+}*/
 
 #navegacion li a {
   color: white;
@@ -24,14 +24,14 @@ header {
 #descripcionheader h5 {
   color: white;
 }
-
+/*
 #imagenheader {
   border: 1px solid violet;
 }
 
 #descripcionheader {
   border: 1px solid red;
-}
+}*/
 
 /* despues del header */
 
@@ -39,6 +39,7 @@ header {
   margin-top: 100px;
 }
 
+/*
 #des {
   border: 1px solid green;
 }
@@ -53,7 +54,7 @@ header {
 
 #tar12 {
   border: 1px solid red;
-}
+}*/
 
 #tar12 a {
   color: black;
@@ -63,42 +64,42 @@ header {
 #tar12 p {
   color: #636363;
 }
-
+/*
 #tar2 {
   border: 1px solid violet;
-}
+}*/
 
 #section1 {
   padding-bottom: 100px;
   background: #f8f8ff;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 #cont1 {
   margin-top: 150px;
 }
-
+/*
 #section2 {
   border: 1px solid green;
-}
+}*/
 
 #cap,
 #cap2 {
-  border: 1px solid violet;
+  /*border: 1px solid violet;*/
   color: #636363;
 }
 
 /*slider de las herramientas*/
 
 #sli {
-  border: 1px solid violet;
+  /*border: 1px solid violet;*/
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
 .slider {
   vertical-align: baseline;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   display: flex;
   height: 100px;
 
@@ -110,7 +111,7 @@ header {
   object-fit: cover;
   scroll-snap-align: center;
   margin-right: 48px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 
   transition: all 300ms;
 }
@@ -122,18 +123,19 @@ header {
 /* escritorio y movil */
 
 #section3 {
-  border: 1px solid skyblue;
+  /*border: 1px solid skyblue;*/
   background: #f8f8ff;
   padding: 10px;
 }
 
+/*
 #desk-and-movil {
   border: 1px solid green;
 }
 
 #section3 .col-md-3 {
   border: 1px solid red;
-}
+}*/
 
 #section3 .col-md-3 p {
   color: #636363;
@@ -145,22 +147,24 @@ header {
 
 .col-md-3 img {
   text-align: center;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
 }
 
 /* mas tarjetas*/
+/*
 #tarj {
   border: 1px solid red;
-}
+}*/
 
 #text {
   color: #636363;
 }
 
+/*
 #ti_card,
 #ti_card1 {
   border: 1px solid green;
-}
+}*/
 
 #moretools {
   margin-bottom: 100px;
@@ -182,12 +186,12 @@ header {
 }
 
 #section4 #sec1 {
-  border: 1px solid violet;
+  /*border: 1px solid violet;*/
   margin-bottom: 30px;
 }
 
 #section5 {
-  border: 1px solid skyblue;
+  /*border: 1px solid skyblue;*/
   background: #f8f8ff;
   padding-bottom: 100px;
 }
@@ -212,9 +216,10 @@ footer li:hover {
   cursor: pointer;
 }
 
+/*
 footer .col-lg-4 {
   border: 1px solid red;
-}
+}*/
 
 /**/
 footer .switch {
